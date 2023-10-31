@@ -1,5 +1,5 @@
 import React from 'react';
-export const NewsCard = ({ newsItem }) => {
+const NewsCard = ({ newsItem }) => {
     console.log(newsItem)
     return (
         <a
@@ -33,3 +33,4 @@ export const NewsCard = ({ newsItem }) => {
         </a>
     )
 }
+export default NewsCard;

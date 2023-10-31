@@ -12,5 +12,5 @@ const getData=async (req, res) => {
     }
   }
 server.use(cors())
-.get('/api/news',getData)
+.get('/api/topStories',getData)
 .listen(process.env.PORT);
